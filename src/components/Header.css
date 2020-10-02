@@ -1,0 +1,13 @@
+.header {
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.25em;
+}
+
+.header > h3 {
+  font-size: 0.8rem;
+  font-style: bold;
+  font-weight: 500;
+  padding-right: 1rem;
+}

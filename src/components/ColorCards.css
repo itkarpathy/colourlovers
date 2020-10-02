@@ -1,0 +1,51 @@
+.scroll_down {
+  background-color: black;
+}
+
+.color_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin: 4rem auto;
+}
+
+.color_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color_left {
+  width: 220px;
+  margin-right: 15px;
+}
+
+.color_leftTop > h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: -8px;
+}
+
+.color_leftTop > h2 {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+}
+
+.color_leftBottom {
+  color: rgb(250, 244, 244);
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+  max-width: 140px;
+}
+
+.color_leftBottom > h2 {
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.5rem;
+}
+
+.color_rightPattern {
+  width: 120px;
+}
